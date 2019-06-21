@@ -4,6 +4,7 @@ MATLAB code for general analysis and display of laminar data recorded in the Sup
 Created by Corentin Massot, last update 06/21/2019
 
 Main display functions:
+
 analysis_events
 	Display laminar trial-averaged data
 
