@@ -12,26 +12,28 @@ analysis_events_trials
 
 Data management
 Load_data_gandhilab 
-create datalist a list of datafiles names sorted by dates (indicated in the name of the files).
+	create datalist a list of datafiles names sorted by dates (indicated in the name of the files).
 get_dlist
-allows the analysis of specific datafiles. The numbers correspond to the numbers attributed by load_data_gandhilab
+	allows the analysis of specific datafiles. The numbers correspond to the numbers attributed by load_data_gandhilab
 
 display_datalist
-display the content of datalist
-
+	display the content of datalist
 
 Specific functions: (the results of each function is saved in the datafile in data.offline)
 compute_fr
-compute firing rate form spiking data
+	compute firing rate form spiking data
 compute_lfp
+
 filter lfp signal
+
 compute_tuning
+
 compute tuning target
 
 
 Selection of features in CSD for alignment across sessions
 Compute_CSDfeature
-display signals and CSD and call findfeatures_CSD
+	display signals and CSD and call findfeatures_CSD
 
 findfeatures_CSD
 performs an automatic estimation of the boundaries of the visual sink (1 top and 2 bottom sink) and the reversal pattern during the motoric epoch. Ask user if a manual selection is preferred if the automatic estimation is not satisfying. Display also on the console the corresponding channel number to the selected depth of the bottom sink.
@@ -40,6 +42,6 @@ update_data
 update the data structure with the CSD alignment information and save it to the original data.    
 
 Reference
-Please cite paper:  Massot C., Jagadisan U.K. & Gandhi N.J., Sensorimotor transformation elicits systematic patterns of activity along the dorsoventral extent of the superior colliculus in the macaque monkey, (to appear in) Communications Biology, 2019.  bioArxiv
+Please cite paper:  Massot C., Jagadisan U.K. & Gandhi N.J., Sensorimotor transformation elicits systematic patterns of activity along the dorsoventral extent of the superior colliculus in the macaque monkey, (to appear in) Communications Biology, 2019.
 
 
