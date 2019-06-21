@@ -1,7 +1,6 @@
 # LaminarSC-CodeGeneralAnalysis
 MATLAB code for general analysis and display of laminar data recorded in the Superior Colliculus. 
 
-Code for displaying and analyzing laminar data.
 Created by Corentin Massot, last update 06/21/2019
 
 Main display functions:
